@@ -3,9 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Blog.iml" filepath="$PROJECT_DIR$/.idea/Blog.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/flask-oauth-example-master/flask-oauth-example-master/.idea/flask-oauth-example-master.iml" filepath="$USER_HOME$/Downloads/flask-oauth-example-master/flask-oauth-example-master/.idea/flask-oauth-example-master.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/ice-wolf-master/ice-wolf-master/.idea/ice-wolf-master.iml" filepath="$USER_HOME$/Downloads/ice-wolf-master/ice-wolf-master/.idea/ice-wolf-master.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/over-achiever-master/over-achiever-master/.idea/over-achiever-master.iml" filepath="$USER_HOME$/Downloads/over-achiever-master/over-achiever-master/.idea/over-achiever-master.iml" />
     </modules>
   </component>
 </project>
