@@ -25,3 +25,5 @@ db.session.commit()
 
 # Length of content in brief
 CONTENT_LENGTH = 5
+
+DEBUG = True

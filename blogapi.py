@@ -2,7 +2,7 @@ from flask import jsonify
 from flask_restful import Api
 from flask_login import LoginManager, login_user, logout_user, current_user
 
-from config import app
+from config import app, DEBUG
 from common.oauth import OAuthSignIn
 from resources.user import UserApi
 from resources.post import PostApi
@@ -79,4 +79,4 @@ def oauth_callback(provider):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=DEBUG)
