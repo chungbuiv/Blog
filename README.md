@@ -9,7 +9,7 @@ Step2: Install and configure MySQL
 In my project, I created database=blog, user=gotit and password=secret, so the configuration is as follow:
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://gotit:secret@localhost/blog'
 
-Step 3: Create applications in Facebook and Google
+Step 3: Create applications on Facebook and Google
 - Create applications on Facebook and Google
 - Configure Valid OAuth Redirect URIs on Facebook as http://127.0.0.1:5000/callback/facebook and http://localhost:5000/callback/facebook
 - Configure Valid OAuth Redirect URIs on Google as http://127.0.0.1:5000/callback/google and http://localhost:5000/callback/google
