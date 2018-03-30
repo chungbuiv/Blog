@@ -10,7 +10,7 @@ In my project, I created database=blog, user=gotit and password=secret, so the c
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://gotit:secret@localhost/blog'
 
 Step 3: Create applications in Facebook and Google
-- Create applications in Facebook and Google
+- Create applications on Facebook and Google
 - Configure Valid OAuth Redirect URIs on Facebook as http://127.0.0.1:5000/callback/facebook and http://localhost:5000/callback/facebook
 - Configure Valid OAuth Redirect URIs on Google as http://127.0.0.1:5000/callback/google and http://localhost:5000/callback/google
 - Get APP ID and SECRET from Facebook/Google application configurations
