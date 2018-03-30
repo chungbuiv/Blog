@@ -13,7 +13,7 @@ parser.add_argument('content', type=str, required=True, help="Content cannot be 
 
 class PostApi(Resource):
 
-    # @login_required
+    @login_required
     # @info_required
     def get(self, id=None, page=1):
         # Check user information before processing
@@ -62,7 +62,7 @@ class PostApi(Resource):
                 }
         return json.dumps(res)
 
-    # @login_required
+    @login_required
     # @info_required
     def post(self):
         # Check user information before processing

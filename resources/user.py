@@ -58,6 +58,7 @@ class UserApi(Resource):
             }
         return json.dumps(res)
 
+    @login_required
     def post(self):
         args = parser.parse_args()
         user_id = current_user.id

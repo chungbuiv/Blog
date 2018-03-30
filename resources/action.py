@@ -29,7 +29,7 @@ class ActionApi(Resource):
         }}
         return json.dumps(res)
 
-    # @login_required
+    @login_required
     def post(self, post_id):
         # Check user information before processing
         if current_user.role:
